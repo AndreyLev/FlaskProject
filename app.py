@@ -16,7 +16,7 @@ app.config['TIMECODES_FOLDER'] = TIMECODES_FOLDER
 
 @app.route('/')
 def index():
-    return render_template('index.html', name='UploadVideosPage')
+    return render_template('Index.html', name='UploadVideosPage')
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
